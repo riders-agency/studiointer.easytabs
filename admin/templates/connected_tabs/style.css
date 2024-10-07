@@ -1,0 +1,583 @@
+.ui-helper-hidden-accessible
+{
+	display: none !important;
+}
+
+
+/*============================================== TAB TOP ==============================================*/
+
+.connected_tab_wraper .connected_tab_wraper_top
+{
+	margin-bottom: 15px;
+}
+
+
+/*============================================== Property list ==============================================*/
+
+#connected_tab_choose_iblock_property li.active a
+{
+	text-decoration: none;
+	color: #000;
+}
+
+/*==============================================  ==============================================*/
+
+
+.admin_button_connected_tab_table
+{
+	width: 100%;
+}
+		.admin_button_connected_tab_table th
+		{
+			text-align: left;
+		}
+		.admin_button_connected_tab_table tbody tr:hover, 
+		tr.connected_tab_selected_row
+		{
+			background: #e0e9ec;
+		}
+
+		td.admin_button_connected_tab_success_saved
+		{
+			background: #C3D467;
+		}
+		td.admin_button_connected_tab_unsuccess_saved
+		{
+			background: #F59CA2;
+		}
+		.admin_button_connected_tab_table tbody td, .admin_button_connected_tab_table thead th
+		{
+			margin: 0;
+			padding: 3px;
+		}
+		.ui-selectable-helper{
+			position:absolute;
+			z-index:100;
+			border:1px dotted black;
+		}
+		.connected_row_may_deleted
+		{
+			background: red !important;
+		}
+		.connected_tab_list
+		{
+			width: auto;
+		}
+		.connected_tab_list .connected_tabs_input_checkbox_wrapper div
+		{
+			display: block;
+			clear: left;
+		}
+		.connected_tab_list .connected_tabs_input_checkbox_wrapper input
+		{
+			float: left;
+			display: block;
+			width: 16px;
+			height: 17px;
+			position: relative;
+			vertical-align: middle;
+			margin-right: 8px;
+			margin-top: 3px;
+		}
+		.connected_tabs_input_checkbox_wrapper
+		{
+			white-space: pre;
+		}
+		.connected_tab_list .connected_tabs_input_checkbox_wrapper label
+		{
+			display: block;
+			white-space: pre;
+			padding-top: 2px;	
+			padding-right: 30px;
+		}
+		#connected_tab_wraper_reassign
+		{
+		    display:none;
+		}
+
+
+
+/*============================================== CON TABLE ==============================================*/
+
+#admin_button_connected_tab_table
+{
+	border: 1px solid #DCE7ED !important;
+}
+		.admin_button_connected_tab_table thead td
+		{
+			background-color:#aebbc0;
+			background-image: -webkit-linear-gradient(top, #b9c7cd, #aab6b8);
+			background-image: -moz-linear-gradient(top, #b9c7cd, #aab6b8);
+			background-image: -ms-linear-gradient(top, #b9c7cd, #aab6b8);
+			background-image: -o-linear-gradient(top, #b9c7cd, #aab6b8);
+			background-image: linear-gradient(top, #b9c7cd, #aab6b8);
+			border:1px solid;
+			border-color:#d9e0e4 #89979d #919b9d #ebeef0;
+			font-weight:bold;
+			text-shadow:0 1px rgba(255,255,255,0.7);
+			height:21px;
+			vertical-align:middle;
+			padding:6px 5px 4px 5px;
+		}
+		.admin_button_connected_tab_table tbody tr:nth-child(odd) td
+		{
+			background-color:#F5F9F9;
+		}
+		.admin_button_connected_tab_table tbody tr td
+		{
+			background:#fff;
+			border:none;
+			color:#000;
+			font-size:13px;
+			height:15px;
+			padding:11px 5px 10px 5px;
+			text-align:left;
+			vertical-align: middle;
+			display: table-cell;
+		}
+		.admin_button_connected_tab_table tbody tr td .connected_tab_row_file_wrapper {
+			max-width: 100px !important;
+		}
+		.admin_button_connected_tab_table tbody tr td .connected_tab_row_file_wrapper img {
+			width: 50px !important;height: 50px !important;
+		}
+		.admin_button_connected_tab_table tbody tr:hover td
+		{
+			background:#e0e9ec;
+		}
+		.admin_button_connected_tab_table tr.connected_tab_selected_row td
+		{
+			background: #E2E7CB !important;
+		}
+		.admin_button_connected_tab_table tr.connected_tab_selected_row_edit td
+		{
+			background: #E2E7CB !important;
+			border-bottom: 1px solid #fff !important;
+		}
+		.admin_button_connected_tab_table tr.connected_tab_selected_row_edit:hover td
+		{
+			cursor: move;
+			background: #d7dcc2 !important;
+		}
+		tr.connected_tab_selected_row_new td
+		{
+			background-color:#aebbc0 !important;
+			background-image: -webkit-linear-gradient(top, #b9c7cd, #aab6b8);
+			background-image: -moz-linear-gradient(top, #b9c7cd, #aab6b8);
+			background-image: -ms-linear-gradient(top, #b9c7cd, #aab6b8);
+			background-image: -o-linear-gradient(top, #b9c7cd, #aab6b8);
+			background-image: linear-gradient(top, #b9c7cd, #aab6b8);
+			border:1px solid;
+			border-color:#d9e0e4 #89979d #919b9d #ebeef0;
+			text-shadow:0 1px rgba(255,255,255,0.7);
+			height:21px;
+			vertical-align:middle;
+			padding:6px 5px 4px 5px;
+		}
+		.admin_button_connected_tab_table td.center
+		{
+			text-align: center;
+		}
+		.admin_button_connected_tab_table .connected_tab_add_images
+		{
+			text-align: center;
+		}
+		.admin_button_connected_tab_table .connected_tab_checkbox_item
+		{
+			display: block;
+			text-align: left;
+			clear: left;
+		}
+		.admin_button_connected_tab_table .connected_tab_checkbox_item input
+		{
+		    display: block;
+		    float: left;
+		    height: 16px;
+		    margin-right: 8px;
+		    margin-top: 3px;
+		    position: relative;
+		    vertical-align: middle;
+		    width: 16px;
+		}
+		.admin_button_connected_tab_table .connected_tab_checkbox_item label
+		{
+			display: block;
+		    float: left;
+		    padding-top: 1px;
+		}
+		.admin_button_connected_tab_table.checkAll tbody tr td:first-child
+		{ 
+			width: 10px; 
+			padding: 0; 
+			vertical-align: middle; 
+			margin: 0;
+		}
+		.admin_button_connected_tab_table.checkAll tbody tr td:first-child .checker, .checkAll tbody tr td:first-child .radio
+		{
+			margin: 0 auto; 
+			float: none;
+		}
+		input.field_type_sort
+		{
+			width: 33px;
+		}
+		#admin_button_connected_tab_table tbody.connected_tab_will_be_deleted tr.connected_tab_selected_row td
+		{
+			background: #ffbaba !important;
+		}
+		
+
+
+/*============================================== TABLE BTN ==============================================*/
+
+[class*="tablectrl"] { text-shadow: none; }
+[class*="tablectrl"] .caret { margin: 5px 0 0 6px; }
+.table_button_small { 
+	font-size: 10px; 
+	padding: 5px 5px 4px 5px;
+	cursor: pointer;
+	cursor: hand;
+	float: left;
+	margin-right: 3px;
+}
+.table_button_medium { font-size: 12px; padding: 6px 6px 5px 6px; }
+.table_button_large { font-size: 14px; padding: 7px 7px 6px 7px; }
+.table_button_xlarge { font-size: 16px; padding: 10px 12px 11px 12px; }
+.table_button_standard { font-size: 12px; padding: 8px; }
+
+.opt { padding-left: 8px; padding-right: 8px; margin: 0; }
+.opt > span { margin-left: 0; }
+.opt .iconb { font-size: 14px; }
+.opt .caret { margin: 5px 0; } 
+
+
+
+/*============================================== ADM DESIGNED OFF ==============================================*/
+
+#bx-admin-prefix .connected_tab_wraper .adm-designed-checkbox-label
+{
+	display: none !important;
+
+}
+#bx-admin-prefix .connected_tab_wraper input.adm-designed-checkbox
+{
+	display: block !important;
+	margin: 0 auto !important;
+}
+
+
+
+/*============================================== FILE UPLOADER ==============================================*/
+
+.uploader
+{ 
+	display: -moz-inline-box; 
+	display: inline-block; 
+	vertical-align: middle; 
+	zoom: 1; 
+	*display: inline;
+}
+		div.uploader { 
+			width: 160px; 
+			position: relative; 
+			overflow: hidden; 
+			box-shadow: 0 1px 0 #fff; 
+			-webkit-box-shadow: 0 1px 0 #fff; 
+			-moz-box-shadow: 0 1px 0 #fff; 
+			border: 1px solid #d7d7d7; 
+			background: #fdfdfd; 
+			padding: 2px 2px 2px 8px;
+		}
+		
+		div.uploader span.action { 
+			width: 22px; 
+			background: url(/bitrix/modules/studiointer_shop/admin/templates/connected_tabs/img/addFiles.png) no-repeat 0 0; 
+			height: 22px; 
+			font-size: 11px; 
+			font-weight: bold; 
+			cursor: pointer; 
+			float: right; 
+			text-indent: -9999px; 
+			display: inline; 
+			overflow: hidden; 
+			cursor: pointer;
+		}
+		div.uploader:hover span.action { background-position: 0 -27px; }
+		div.uploader:active span.action { background-position: 0 -54px; }
+		div.uploader span.filename
+		{ 
+			color: #777; 
+			max-width: 200px; 
+			font-size: 11px; 
+			line-height: 22px; 
+			float: left; 
+			display: block; 
+			overflow: hidden; 
+			text-overflow: ellipsis; 
+			white-space: nowrap; 
+			cursor: default;
+		}
+		div.uploader input
+		{ 
+			width: 160px; 
+			opacity: 0; 
+			filter: alpha(opacity:0); 
+			position: absolute; 
+			top: 0; 
+			right: 0; 
+			bottom: 0; 
+			float: right; 
+			height: 26px; 
+			border: none; 
+			cursor: pointer;
+		}
+
+
+
+/*============================================== IMAGE PREVIEW ==============================================*/
+
+.connected_tab_file_list
+{
+
+}
+		.connected_tab_doc_element
+		{
+			border-bottom: 2px solid #ccc;
+			padding-bottom: 10px;
+			margin: 10px 0;	
+
+		}
+		.connected_tab_preview_image
+		{
+			
+			border-bottom: 2px solid #ccc;
+			padding-bottom: 10px;
+			margin: 10px 0;
+
+		}
+			.connected_tab_preview_image a
+			{
+				
+				display: block;
+				width: 50px;
+				height: 50px;
+				overflow: hidden;
+			}
+			.connected_tab_preview_image img
+			{
+				border: 1px solid #ccc;
+				width: 50px;
+				height: 50px;
+			}
+			
+		.connected_tab_preview_image:hover span.connected_tab_preview_image_delete
+		{
+			display: block;
+		}
+			span.connected_tab_doc_element_type
+			{
+
+				background: #6f6f6f; 
+
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#eeeeee',GradientType=0 );
+				border: 1px solid #c3c3c3; -webkit-border-radius: 3px; 
+				-moz-border-radius: 3px; 
+				border-radius: 3px; 
+				padding: 4px 7px; 
+				margin: 0 1px; 
+				cursor: pointer; 
+				*cursor: hand; 
+				color: #606060; 
+				font-size: 11px; 
+				box-shadow: 0 1px 0 #fff inset, 0 1px 0px #dfdfdf; 
+				-webkit-box-shadow: 0 1px 0 #fff inset, 0 1px 0px #dfdfdf; 
+				-moz-box-shadow: 0 1px 0 #fff inset, 0 1px 0px #dfdfdf;
+
+				color: #fff; 
+				border-color: #646464; 
+				box-shadow: 0 1px 2px #545454 inset, 0 1px 0 #fff; 
+				-webkit-box-shadow: 0 1px 2px #545454 inset, 0 1px 0 #fff; 
+				-moz-box-shadow: 0 1px 2px #545454 inset, 0 1px 0 #fff; 
+				font-weight: bold;
+				float: left;
+			}
+			span.connected_tab_doc_element_name
+			{
+			    color: #2D3E4A;
+			    display: inline-block;
+			    font-weight: bold;
+			    vertical-align: top;
+			    padding-left: 5px;
+				cursor: pointer; 
+				*cursor: hand; 
+				line-height: 22px;
+			}
+			span.connected_tab_file_description
+			{
+				display: block;
+				margin: 11px 0;
+				padding-right: 15px;
+			}
+				span.connected_tab_file_description input.field_type_file_description
+				{
+				    font-size: 13px;
+				    height: 25px;
+				    margin-bottom: 0;
+				    margin-left: 0;
+				    margin-right: 0;
+				    margin-top: 0;
+				    padding-bottom: 0;
+				    padding-left: 5px;
+				    padding-right: 5px;
+				    padding-top: 0;	
+				    width: 100%;
+				}		
+			
+			
+	
+
+
+/*=============================================================== BUTTONS ==============================================*/
+
+.connected_tab_wraper .con-btn
+{
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	border:none;
+	border-top:1px solid #fff;
+	-webkit-box-shadow: 0 0 1px rgba(0,0,0,.11), 0 1px 1px rgba(0,0,0,.3), inset 0 1px #fff, inset 0 0 1px rgba(255,255,255,.5);
+	box-shadow: 0 0 1px rgba(0,0,0,.3), 0 1px 1px rgba(0,0,0,.3), inset 0 1px #fff, inset 0 0 1px rgba(255,255,255,.5);
+	background-image: -webkit-linear-gradient(bottom, #d7e3e7, #fff)!important;
+	background-image: -moz-linear-gradient(bottom, #d7e3e7, #fff)!important;
+	background-image: -ms-linear-gradient(bottom, #d7e3e7, #fff)!important;
+	background-image: -o-linear-gradient(bottom, #d7e3e7, #fff)!important;
+	background-image: linear-gradient(bottom, #d7e3e7, #fff)!important;
+	color:#3f4b54;
+	cursor:pointer;
+	display:inline-block;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight:bold;
+	font-size:13px;
+	/*line-height:18px;*/
+	height: 29px;
+	text-shadow:0 1px rgba(255,255,255,0.7);
+	text-decoration:none;
+	position:relative;
+	vertical-align:middle;
+	-webkit-font-smoothing: antialiased;
+	margin-right: 5px;
+}
+		.connected_tab_wraper .con-btn.spall span.con-btn-wraper
+		{
+			height:29px;
+			line-height:28px;
+			padding:5px 22px 5px;
+		}
+		.connected_tab_wraper .con-btn span.con-btn-wraper
+		{
+			height:29px;
+			line-height:28px;
+			padding:5px 22px 5px;
+		}
+		.connected_tab_wraper .con-btn span.con-btn-count
+		{ 
+			margin-left: -12px;
+			position: absolute;
+			font-size: 11px; 
+			font-weight: bold; 
+			display: inline-block; 
+			padding: 0px 5px; 
+			color: white; 
+			line-height: 17px; 
+			height: 16px; 
+			white-space: nowrap; 
+			-webkit-border-radius: 2px; 
+			border-radius: 2px; 
+			-moz-border-radius: 2px;
+			background: #5897C3;
+			z-index: 5;
+		}
+		.connected_tab_wraper .con-btn span.con-btn-count strong,
+		.connected_tab_wraper .con-btn div.con-btn-count strong
+		{ 
+			color: #fff; 
+			font-weight: normal;
+		}
+
+
+
+/*=============================================================== REASSIGN ==============================================*/
+
+.contab-input-wrap {
+	display:block; 
+	-ms-border-radius:3px; 
+	position:relative; 
+	vertical-align:top; 
+	padding-top:1px;
+	float: left;
+	margin-right: 10px;
+}
+		.contab-input-wrap .contab-input {
+			-moz-box-sizing:border-box; 
+			-webkit-box-sizing:border-box; 
+			box-sizing:border-box; 
+			height:30px;  
+			width:100%;
+		}
+		.contab-input-wrap .contab-input::-ms-clear
+		{
+			display: none;
+		}
+		#connected_tab_wraper_reassign
+		{
+			margin: 20px 0;
+		}
+		ul#ui-id-1 { 
+			float: right;
+			padding-left: 0px;
+		}
+		ul#ui-id-1:after { content: ""; display: block; clear: both; }
+		ul#ui-id-1 > li { 
+			border: 1px solid #c3c3c3; position: relative;
+		}
+		ul#ui-id-1 li strong { color: #B35D5D; margin-left: 4px; }
+		ul#ui-id-1 > li:first-child { border-left: 1px solid #c3c3c3; }
+		ul#ui-id-1 li a { 
+			color: #666666; 
+			padding: 3px 12px 3px 12px; 
+			display: block;
+			text-decoration: none;
+		}
+		ul#ui-id-1 li {  
+			background: #f8f8f8;
+			background: -moz-linear-gradient(top,  #f8f8f8 0%, #eaeaea 100%);
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#eaeaea));
+			background: -webkit-linear-gradient(top,  #f8f8f8 0%,#eaeaea 100%);
+			background: -o-linear-gradient(top,  #f8f8f8 0%,#eaeaea 100%);
+			background: -ms-linear-gradient(top,  #f8f8f8 0%,#eaeaea 100%);
+			background: linear-gradient(top,  #f8f8f8 0%,#eaeaea 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f8f8', endColorstr='#eaeaea',GradientType=0 );
+			list-style-type: none;
+			padding: 5px 0;
+			padding-left: 0px;
+			cursor: pointer;
+		}
+		ul#ui-id-1 li:hover {  
+			background: #F5F9F9;
+		}
+		span.connected_tab_autocomlete_element_hint
+		{
+			display: block;
+			margin: 8px 0;
+			padding: 3px 3px;
+			background: #E2E7CB;
+		}
+		span.ui-helper-hidden-accessible
+		{
+			color: #666;
+			padding: 10px 0;
+		}
+
+.connected_tab_textarea .ck-content {
+	cursor: text;
+}

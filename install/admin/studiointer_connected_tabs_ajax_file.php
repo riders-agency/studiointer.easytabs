@@ -1,0 +1,1 @@
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/studiointer.easytabs/admin/ajax/connected_tabs/save_files.php");

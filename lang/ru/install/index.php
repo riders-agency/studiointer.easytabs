@@ -1,0 +1,4 @@
+<?
+$MESS["STUDIOINTER_EASY_TABS_MODULE_NAME"] = "Менеджер привязок Easy Tabs";
+$MESS["STUDIOINTER_EASY_TABS_MODULE_INSTALL"] = "Установка";
+$MESS["STUDIOINTER_EASY_TABS_PARTNER_NAME"] = "Студиоинтер";
